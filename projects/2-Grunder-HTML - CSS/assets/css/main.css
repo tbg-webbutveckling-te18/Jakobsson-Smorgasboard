@@ -13,15 +13,27 @@ p {
 }
 
 ul {
-    background-color: rgba(43, 88, 175, 0.66);
     list-style-type: none;
     padding-left: 0px;
 }
 
-ul li {
-    color:rgba(174, 180, 25, 0.56);
+/*
+# = id 
+. = class
+*/
+ul#subpages li:first-child {
+/*    color:rgba(174, 180, 25, 0.56);*/
     text-shadow: 1px 1px 1px ; /* x y and blur */
-    font-size: 30px
+    font-size: 30px;
+    text-align: center;
+}
+
+ul#subpages a {
+    text-decoration: none;
+}
+ul#subpages a:hover {
+    font-weight: bold;
+    color: rgb(255, 255, 255)
 }
 
 nav ul li a {
