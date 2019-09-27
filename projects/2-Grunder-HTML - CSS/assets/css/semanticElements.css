@@ -1,3 +1,39 @@
+
+
 body {
-    background-color: rgba(255, 0, 0, 1)
+    background-color: rgba(255, 0, 0, 0.6);
+    margin: 0px;
+    
+}
+
+section#wrapper {
+    display: block; /* standard on most of the elements */
+    width: 350px;
+    min-height: 350px;
+    
+    background-color: rgb(255, 0, 0);
+    border: 2px solid rgb(0,0,0); /* width style color */
+}
+
+section#wrapper p {
+    color: rgb(0,0,0);
+    border: 2px solid black;
+    margin-top: 0px;
+    padding: 5px;
+    
+    text-align: center;
+}
+
+section.standardSection {
+    width: 300px;
+    height: 300px;
+    
+    background-color: rgb(255, 255, 255);
+    margin: 10px 0px; /* top/bottom left/right */
+    border: 5px solid black;
+    box-shadow: 5px 5px 0px rgb(255, 255, 255);
+}
+
+section.standardSection img {
+    display: inline; /* a few elements have inline as standard */
 }
