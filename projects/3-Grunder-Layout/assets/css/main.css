@@ -1,0 +1,25 @@
+html {
+    height: 100%
+}
+
+body {
+    background: -webkit-linear-gradient(to bottom, rgb(0, 255, 245), rgb(255, 0, 0), rgb(0,255,245), rgb(255, 0, 0));
+        
+    background: linear-gradient(to bottom, rgb(0, 255, 245), rgb(176, 255, 83), rgb(0,255,245), rgb(176, 255, 83));
+    
+    margin: 0px;
+}
+section#wrapper {
+    border: 1px solid black;
+    
+    width: 80%;
+    min-height: 600px;
+    height: auto;
+    
+    margin: auto;
+}
+header {
+    height: 200px;
+    border: 1px solid white;
+    
+}
