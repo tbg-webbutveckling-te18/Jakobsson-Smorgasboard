@@ -22,4 +22,43 @@ header {
     height: 200px;
     border: 1px solid white;
     
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+}
+
+header h1 {
+    color:black;
+    font-size: 25px;
+    margin: 0px;
+    
+    background: linear-gradient(to right, rgb(255,0,0), rgb(0, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+nav {
+    border: 5px solid black;
+    
+}
+
+nav ul#mainNavigation {
+    display: flex;
+    justify-content: space-around;
+    
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+ul#mainNavigation a {
+    text-decoration: none;
+    color: rgb(206, 0, 255);
+    font-size: 30px;
+}
+
+ul#mainNavigation a:hover {
+    font-weight: bold;
+    cursor: pointer;
 }
