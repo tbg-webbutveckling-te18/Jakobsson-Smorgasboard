@@ -1,5 +1,5 @@
 html {
-    height: 100%
+    min-height: 100%
 }
 
 body {
@@ -38,7 +38,7 @@ header h1 {
 }
 
 nav {
-    border: 5px solid black;
+    border: 1px solid black;
     
 }
 
@@ -61,4 +61,47 @@ ul#mainNavigation a {
 ul#mainNavigation a:hover {
     font-weight: bold;
     cursor: pointer;
+}
+
+main, main aside, section.mainInfo {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    min-height: 500px;
+}
+
+main aside {
+    flex: 1;
+}
+
+section.mainInfo {
+    flex: 2;
+}
+section.mainInfo img {
+    width: 20%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section.copyright {
+    text-align: center;
+    color: white;
+    font-weight: bold;
 }
