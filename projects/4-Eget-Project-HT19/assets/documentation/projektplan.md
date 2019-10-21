@@ -1,6 +1,6 @@
 # projektplan - Eget projekt HT19
 
-# projekt namn
+# Veta vingummi
 -2019-10-18
 - Linus Jakobsson
 - företags namn
@@ -14,12 +14,12 @@ Jag har tänkt mig en ganska välkomnande sida till alla för att det ska vara e
 # Research och inhämtning av material
 
 ## Beskrivning av webbplatsen
-det ska finnas olika information om vingummi
+det ska finnas olika information om vingummi.
 # Innehåll på webbplatsen i stora drag -> känslan som den försöker förmedla.
-
+jag vill att den ska kännas informativ och öppen.
 # Design/Form
-* Skapa en sitemap för webbplatsen
-    * Skissa wireframes 
+* Skapa en sitemap för webbplatsen (se under documentation)
+    * Skissa wireframes (se under documentation)
 * Exempel: Startsida
     * Beskriv idén med kompositionen på de olika sidorna 
 * logotyper
@@ -32,7 +32,7 @@ det ska finnas olika information om vingummi
 # Text
 texten kommer att vara en viktig del för att denna sida ska vara informativ.
 # Bild
-för att inte få att allt verkar vara text
+för att inte få att allt verkar vara text så ska det finnas någon bild.
 # Rörliga bilder
 kommer troligtvis inte använda rörliga billder.
 # Ljud
