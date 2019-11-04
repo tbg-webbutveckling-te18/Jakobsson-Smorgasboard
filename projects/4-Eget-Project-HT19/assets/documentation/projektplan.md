@@ -23,7 +23,7 @@ jag vill att den ska kännas informativ och öppen.
 * Exempel: Startsida
     * Beskriv idén med kompositionen på de olika sidorna 
 * logotyper
-* Färger
+* till färger så har jag en gradient med rgb(121, 0, 121) till rgb(78, 3, 118))
 * Body bgcolor
 * Header 
 * Font

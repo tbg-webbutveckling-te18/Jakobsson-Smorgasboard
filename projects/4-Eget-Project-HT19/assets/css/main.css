@@ -1,0 +1,29 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background: -webkit-linear-gradient(to bottom, rgb(121, 0, 121), rgb(78, 3, 118));
+    background: linear-gradient(to bottom, rgb(121, 0, 121), rgb(78, 3, 118));
+}
+
+header {
+    border: 2px solid black;
+    height: auto;
+    
+    display: flex;
+}
+
+header p {
+    margin-bottom: auto;
+    margin-top: auto;
+    
+    padding-left: 5px;
+}
+
+nav {
+    border: 2px solid black;
+    width: 5%;
+    height: 500px;
+}
+
