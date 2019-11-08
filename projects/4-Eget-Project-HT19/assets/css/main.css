@@ -21,9 +21,41 @@ header p {
     padding-left: 5px;
 }
 
-nav {
+main {
+    border: 2px solid black;
+    display: flex; 
+}
+
+main p {
+    
+    width: 100%;
+    text-align: center;
+    margin: 16px;
+}
+
+aside {
     border: 2px solid black;
     width: 5%;
     height: 500px;
 }
 
+nav {
+    width: auto;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav ul li {
+    list-style: none;
+    text-align: center;
+}
+
+footer {
+    border: 2px solid black;
+}
+
+footer p {
+    text-align: center;
+}
