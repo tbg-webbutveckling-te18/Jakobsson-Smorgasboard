@@ -21,16 +21,21 @@ header p {
     padding-left: 5px;
 }
 
+header img {
+    
+}
+
 main {
     border: 2px solid black;
     display: flex; 
 }
 
-main p {
+main section {
     
     width: 100%;
     text-align: center;
     margin: 16px;
+    font-size: 25px;
 }
 
 aside {
@@ -50,6 +55,14 @@ nav ul {
 nav ul li {
     list-style: none;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
 }
 
 footer {
