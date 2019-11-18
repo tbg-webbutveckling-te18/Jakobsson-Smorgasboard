@@ -45,11 +45,21 @@ aside {
 }
 
 nav {
+    height: 100%;
     width: auto;
 }
 
-nav ul {
+nav ul#mainNavigation {
+    height: 100%;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding: 0px;
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 nav ul li {
