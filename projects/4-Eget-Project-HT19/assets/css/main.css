@@ -12,13 +12,14 @@ header {
     height: auto;
     
     display: flex;
+    justify-content: space-between;
 }
 
 header h1 {
     margin-bottom: auto;
     margin-top: auto;
     
-    font-size: 50px;
+    font-size: 80px;
     padding-left: 5px;
 }
 
@@ -27,7 +28,7 @@ header img {
 }
 
 main {
-    border: 2px solid black;
+    border-right: 2px solid black;
     display: flex; 
 }
 
@@ -39,7 +40,8 @@ main section {
 }
 
 aside {
-    border: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
     width: 15%;
     height: 500px;
 }
@@ -74,6 +76,9 @@ a {
 }
 
 a:hover {
+    font-weight: bold;
+}
+a.activePage {
     font-weight: bold;
 }
 
