@@ -35,8 +35,19 @@ main {
 main section {
     width: 100%;
     text-align: center;
+    
     margin: 16px;
-    font-size: 15px;
+    
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+main h1 {
+    font-size: 30px;
+}
+
+main p {
+    font-size: 20px;
 }
 
 aside {
