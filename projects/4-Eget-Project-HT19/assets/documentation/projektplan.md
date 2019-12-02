@@ -12,7 +12,7 @@ Jag har tänkt göra en sida som visar vad som finns i vingummi.
 # Målgrupp
 Jag har tänkt mig en ganska välkomnande sida till alla för att det ska vara en informell.
 # Research och inhämtning av material
-
+informationen kommer från wikipedia, bilden togs från https://storage.needpix.com/rsynced_images/haribo-2543350_1280.png
 ## Beskrivning av webbplatsen
 det ska finnas olika information om vingummi.
 # Innehåll på webbplatsen i stora drag -> känslan som den försöker förmedla.
@@ -21,13 +21,11 @@ jag vill att den ska kännas informativ och öppen.
 * Skapa en sitemap för webbplatsen (se under documentation)
     * Skissa wireframes (se under documentation)
 * Exempel: Startsida
-    * Beskriv idén med kompositionen på de olika sidorna 
-* logotyper
+    * Beskriv idén med kompositionen på de olika sidorna - 
+* logotyper 
 * till färger så har jag en gradient med rgb(121, 0, 121) till rgb(78, 3, 118))
-* Body bgcolor
-* Header 
-* Font
-* Osv… 
+* Header - här ska sidans namn stå
+* Font - den vanliga fonten kommer att användas
 
 # Text
 texten kommer att vara en viktig del för att denna sida ska vara informativ.
