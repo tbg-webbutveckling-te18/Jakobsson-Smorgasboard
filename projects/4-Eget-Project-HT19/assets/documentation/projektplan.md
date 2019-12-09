@@ -36,5 +36,5 @@ kommer troligtvis inte använda rörliga billder.
 # Ljud
 jag tror inte att jag kommer att ha olika ljud.
 # Interaktivitet
-jag kommer att ha så man kan ta sig till andra undersidor och tillbaka.
+jag kommer att ha så man kan ta sig till andra undersidor och tillbaka. Det finns också en iframe av google maps.
 # Funktioner
