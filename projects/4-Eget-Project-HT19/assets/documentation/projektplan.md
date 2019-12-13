@@ -37,4 +37,10 @@ kommer troligtvis inte använda rörliga billder.
 jag tror inte att jag kommer att ha olika ljud.
 # Interaktivitet
 jag kommer att ha så man kan ta sig till andra undersidor och tillbaka. Det finns också en iframe av google maps.
-# Funktioner
+
+
+# Utvärdering
+Jag tycker att det har gått bra och jag stötte inte på många problem och dom problem som jag stötte på fick jag hjälp med. Det som jag behövde hjälp med var det som då vissa element inte kom på den plats som jag ville ha dom på.
+
+Jag tycker att designen på sidan liknar min wireframe och jag har inte behövt ändra mmycket utom att jag la till en extra väg i menyn så att det skulle bli lättare att navigera.
+
