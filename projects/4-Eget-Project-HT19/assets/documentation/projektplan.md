@@ -44,3 +44,4 @@ Jag tycker att det har gått bra och jag stötte inte på många problem och dom
 
 Jag tycker att designen på sidan liknar min wireframe och jag har inte behövt ändra mmycket utom att jag la till en extra väg i menyn så att det skulle bli lättare att navigera.
 
+Ett tips som jag skulle kunna ge är att göra en wireframe för att det hjälpte mycket då jag bara kunde kolla på den och få en  idé på vad skulle finnas och vad jag skulle göra härnäst.
