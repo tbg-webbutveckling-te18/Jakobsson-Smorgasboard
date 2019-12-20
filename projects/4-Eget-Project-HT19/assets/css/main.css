@@ -23,6 +23,14 @@ header h1 {
     padding-left: 5px;
 }
 
+header h1:hover {
+    color: transparent;
+    background: -webkit-linear-gradient(to right, rgb(255, 158, 3), rgb(255, 0, 0), rgb(255, 158, 3));
+    background: linear-gradient(to right, rgb(255, 158, 3), rgb(255, 0, 0), rgb(255, 158, 3));
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
 header img {
     width: 300px;
 }
@@ -93,6 +101,12 @@ li a {
 
 a:hover {
     font-weight: bold;
+    
+    color: transparent;
+     background: -webkit-linear-gradient(to right, rgb(255, 158, 3), rgb(255, 0, 0), rgb(255, 158, 3));
+    background: linear-gradient(to right, rgb(255, 158, 3), rgb(255, 0, 0), rgb(255, 158, 3));
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 a.activePage {
     font-weight: bold;
@@ -100,8 +114,19 @@ a.activePage {
 
 footer {
     border: 2px solid black;
+    display: flex;
+    
+    justify-content: center;
 }
 
 footer p {
-    text-align: center;
+    
+    
+}
+
+footer p:hover {
+    color: transparent;
+    background: linear-gradient(to right, rgb(22, 255, 3), rgb(10, 0, 255), rgb(22, 255, 3));
+    -webkit-background-clip: text;
+    background-clip: text;
 }
