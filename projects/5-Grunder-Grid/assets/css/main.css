@@ -19,26 +19,15 @@ body {
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 350px 1fr;
 }
 
 
 
-.grid-item:nth-child(1) {
+.grid-item:nth-child(even) {
     background-color: rgb(96, 113, 1);
 }
 
-.grid-item:nth-child(2) {
+.grid-item:nth-child(odd) {
     background-color: aqua;
-}
-
-.grid-item:nth-child(3) {
-    background-color: rgb(96, 113, 1);
-}
-
-.grid-item:nth-child(4) {
-    background-color: aqua;
-}
-
-.grid-item:nth-child(5) {
-    background-color: rgb(96, 113, 1);
 }
