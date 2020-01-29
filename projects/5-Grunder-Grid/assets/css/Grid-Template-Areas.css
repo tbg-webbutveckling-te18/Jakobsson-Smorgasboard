@@ -66,6 +66,7 @@ body {
 .grid-portfolio {
     display: grid;
     
+    padding: 10px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 200px;
     grid-gap: 10px;
