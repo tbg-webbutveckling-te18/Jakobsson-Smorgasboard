@@ -1,5 +1,5 @@
 body {
-    background-color: skyblue;
+    background-color: rgb(135, 205, 235);
 }
 
 a {
@@ -13,7 +13,7 @@ header {
 }
 
 .grid-container {
-    background-color: red;
+    background-color: rgb(255, 201, 141);
     
     display: grid;
     min-height: auto;
@@ -26,7 +26,7 @@ header {
 }
 
 .grid-item {
-    background-color: green;
+    background-color: #BFA17F;
     
     display: flex;
     
@@ -36,6 +36,13 @@ header {
     transition: box-shadow .5s;
 }
 
+footer {
+    display: flex;
+    
+    align-content: center;
+    justify-content: center;
+}
+
 .grid-item:hover {
-    box-shadow: 5px 5px 5px black, -5px -5px 5px black;
+    box-shadow: inset 5px 5px 20px black, inset -5px -5px 20px black;
 }
