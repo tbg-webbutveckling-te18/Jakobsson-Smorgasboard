@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+body {
+    background-color: aqua;
+    
+    overflow-y: hidden;
+}
+
 h1 {
     text-align: center;
 }
@@ -20,7 +26,6 @@ h1 {
 .grid-item:nth-child(1) {
     grid-area: left;
     
-    background-color: aqua;
 }
 
 .grid-item:nth-child(2) {
@@ -32,13 +37,11 @@ h1 {
 .grid-item:nth-child(3) {
     grid-area: right;
     
-    background-color: aqua;
 }
 
 .grid-item:nth-child(4) {
     grid-area: footer;
     
-    background-color: aqua;
 }
 
 .grid-portfolio {
@@ -50,9 +53,17 @@ h1 {
     grid-gap: 5px;
 }
 
-.grid-porfolio-item {
+.grid-portfolio-item {
     display: flex;
     
     align-content: center;
     justify-content: center;
+}
+
+.grid-portfolio-item img {
+    transition: .5s;
+}
+
+.grid-portfolio-item img:hover {
+    transform: scale(1.4);
 }
