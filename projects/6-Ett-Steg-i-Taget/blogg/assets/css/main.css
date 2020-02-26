@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    
+}
+
+header h1 {
+    text-align: center;
+}
+
+.blogg-container {
+    
+}
+
+.blogg-section {
+    border: 2px solid black;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    
+    width: 50vw;
+    min-height: 50vh;
+}
+
+.section-header {
+    height: auto;
+    
+    padding: 10px;
+    
+    border-bottom: 2px solid black;
+    
+    display: flex;
+    
+    justify-content: space-between
+}

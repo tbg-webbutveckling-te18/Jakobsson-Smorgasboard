@@ -1,11 +1,11 @@
-@charset "utf-8"
+@charset "utf-8";
 
 body {
     background-color: rgb(242, 168, 216);
 }
 
 .grid-container {
-    background-color: red;
+    background-color: rgb(230, 252, 175);
     
     
     
@@ -20,14 +20,16 @@ body {
 }
 
 .grid-item {
-    background-color: blue;
+    background-color: rgb(181, 140, 167);
     
     display: flex;
     align-items: center;
     justify-content: center;
     
-    height: auto;
+    height: 100%;
     width: auto;
+    
+    transition: .5s;
 }
 
 a {
@@ -37,4 +39,10 @@ a {
 
 a section.grid-item p {
     font-size: 70px;
+}
+
+.grid-item:hover {
+    box-shadow: inset 5px 5px 5px black, inset -5px -5px 5px black;
+    
+    transform: scale(1.1)
 }
