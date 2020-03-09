@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    
+    background-color: rgb(128, 255, 212);
 }
 
 header h1 {
@@ -13,6 +13,7 @@ header h1 {
 }
 
 .blogg-section {
+    background-color: #FFAB80;
     border: 2px solid black;
     
     margin-left: auto;
@@ -28,9 +29,11 @@ header h1 {
     
     padding: 10px;
     
-    border-bottom: 2px solid black;
-    
     display: flex;
     
     justify-content: space-between
+}
+
+.main-blogg-content {
+    padding: 10px;
 }
