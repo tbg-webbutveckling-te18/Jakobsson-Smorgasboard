@@ -26,4 +26,24 @@ ul {
 
 .sub-menu-1 {
     visibility: hidden;
+    
+    height: 0px;
+}
+
+.drop-menu-1:hover .sub-menu-1 {
+    visibility: visible;
+    
+    height: auto;
+}
+
+.sub-menu-2 {
+    visibility: hidden;
+    
+    height: 0px;
+}
+
+.drop-menu-2:hover .sub-menu-2 {
+    visibility: visible;
+    
+    height: auto;
 }
