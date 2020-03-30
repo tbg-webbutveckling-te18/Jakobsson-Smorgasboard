@@ -11,21 +11,25 @@
             <fieldset>
                 <legend>Kontaktformulär</legend>
                 <p>
-                    <label for="username">Användarnamn</label>
-                    <input type="text" required id="username"> <span class="form-required">*</span>
+                    <label for="username">Användarnamn <span class="form-required">*</span></label>
+                    <input type="text" required id="username" placeholder="Skriv ditt användanamn">
                 </p>
+                
                 <p>
-                    <label for="email">Email</label>
-                    <input type="email" id="email">
+                    <label for="country">Land <span class="form-required">*</span></label>
+                    <input type="text" required id="country" placeholder="Skriv det land som du bor i">
                 </p>
+                
+                <p>
+                    <label for="email">Email </label>
+                    <input type="email" id="email" placeholder="Skriv din e-postadress">
+                </p>
+                
                 <p>
                    <label for="">Övrigt</label>
-                    <textarea maxlength="250"></textarea>
+                    <textarea maxlength="250" placeholder="Skriv ditt medelande här"></textarea>
                 </p>
-                <p>
-                    <label for="">Lösenord</label>
-                    <input type="password" required> <span class="form-required">*</span>
-                </p>
+                
                 <p>
                     <button type="submit">Skicka</button>
                 </p>

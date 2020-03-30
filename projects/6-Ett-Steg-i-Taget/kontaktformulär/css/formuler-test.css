@@ -15,6 +15,14 @@
 
 .test-form fieldset {
     height: auto;
+    
+    padding: 10px;
+}
+
+.test-form legend {
+    transform: rotate(5deg);
+    color: white;
+    background-color: black;
 }
 
 .form-required {
@@ -22,8 +30,27 @@
 }
 
 .test-form textarea {
-    width: 200px;
+    min-width: 50%;
     height: 100px;
     
     resize: none;
+}
+
+.test-form input {
+    min-width: 50%;
+}
+
+.test-form input[type="text"] {
+    color: red;
+    padding: 5px;
+}
+
+.test-form p {
+    display: flex;
+    
+    flex-flow: column;
+}
+
+.test-form button {
+    outline: none;
 }
