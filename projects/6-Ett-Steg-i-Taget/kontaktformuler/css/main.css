@@ -18,8 +18,19 @@ header h1 {
     height: 100%;
 }
 
+.form p {
+    display: flex;
+    flex-flow: column;
+}
+
 fieldset {
     height: auto;
+}
+
+.form input {
+    width: 50%;
+    
+    border-radius: 5px;
 }
 
 .form textarea {
@@ -27,8 +38,25 @@ fieldset {
     width: 300px;
     
     resize: none;
+    
+    border-radius: 5px;
 }
 
 span.required {
     color: red;
+}
+
+.form button {
+    margin-bottom: 5px;
+    padding: 5px;
+    
+    border-radius: 10px;
+    
+    font-size: 25px;
+    
+    background-color: white;
+}
+
+button:hover {
+    cursor: pointer;
 }

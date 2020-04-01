@@ -14,12 +14,16 @@
           <fieldset>
            <legend>Var snäll och fyll i</legend>
            <p>
-               <label for="ussername">Anvendarnamn</label>
-               <input type="text" required id="ussername"> <span class="required">*</span>
+               <label for="ussername">Anvendarnamn <span class="required">*</span></label>
+               <input type="email" maxlength="25" required id="ussername" placeholder="Skriv användarnamn">
            </p>
            <p>
                <label for="medelande">Medelande</label>
-               <textarea maxlength="250" id="medelande"></textarea>
+               <textarea maxlength="250" id="medelande" placeholder="Skriv ditt meddelande"></textarea>
+           </p>
+           <p>
+               <button type="reset">Återställ formulär</button>
+               <button type="submit">Skicka</button>
            </p>
        </fieldset>
       </form>
