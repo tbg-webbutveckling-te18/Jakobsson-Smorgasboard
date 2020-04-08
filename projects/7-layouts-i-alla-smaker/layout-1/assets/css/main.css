@@ -5,6 +5,10 @@
     padding: 0px;
 }
 
+body {
+    padding: 5px;
+}
+
 header {
     background-color: grey;
     
@@ -28,7 +32,46 @@ header {
     text-align: center;
 }
 
-section.main-content {
+main.main-content {
     display: grid;
     
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
+    
+}
+
+#aside-left, #aside-right {
+    height: auto;
+}
+
+.aside-left {
+    height: 190px;
+    
+    margin-bottom: 10px;
+    
+    background-color: gray;
+}
+
+section.aside-right {
+    height: 100px;
+    
+    margin-bottom: 10px;
+    
+    background-color: gray;
+}
+
+section.aside-right-container {
+    display: flex;
+}
+section.aside-right-container section.aside-right {
+    height: 145px;
+    width: 145px;
+    
+    margin-right: 10px;
+}
+
+footer {
+    background-color: gray;
+    
+    height: 20px;
 }
