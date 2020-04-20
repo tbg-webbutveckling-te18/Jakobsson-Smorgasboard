@@ -1,4 +1,4 @@
-@charset="utf-8";
+@charset "utf-8";
 
 * {
     margin: 0px;
@@ -63,6 +63,7 @@ section.aside-right {
 section.aside-right-container {
     display: flex;
 }
+
 section.aside-right-container section.aside-right {
     height: 145px;
     width: 145px;
