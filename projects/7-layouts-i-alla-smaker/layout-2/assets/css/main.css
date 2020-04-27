@@ -44,11 +44,31 @@ nav {
 #section-container {
     display: grid;
     
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 3fr 1fr 1fr;
 }
 
-.grid-item {
-    
-    
+#first-grid-item, #second-grid-item {
+    margin-right: 10px;
+}
+
+.collumn-one-item {
     background-color: gray;
+    
+    margin-bottom: 10px;
+    
+    height: 150px;
+    width: 100%;
+}
+
+.collumn-one-item:nth-child(3) {
+    height: 250px;
+}
+
+.collumn-two-item {
+    background-color: gray;
+    
+    margin-bottom: 10px;
+    
+    height: 200px;
+    width; 100%;
 }
