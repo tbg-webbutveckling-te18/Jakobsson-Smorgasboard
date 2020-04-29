@@ -61,7 +61,7 @@ nav {
 }
 
 .collumn-one-item:nth-child(3) {
-    height: 250px;
+    height: 400px;
 }
 
 .collumn-two-item {
@@ -71,4 +71,32 @@ nav {
     
     height: 200px;
     width; 100%;
+}
+
+.collumn-two-item:nth-child(2) {
+    height: 510px;
+}
+
+.collumn-three-item {
+    background-color: gray;
+    
+    margin-bottom: 10px;
+    
+    height: 120px;
+    width: 100%;
+}
+
+.collumn-three-item:nth-child(2) {
+    height: 420px;
+}
+
+.collumn-three-item:nth-child(3) {
+    height: 160px;
+}
+
+footer {
+    background-color: gray;
+    
+    height: 75px;
+    width: 100%;
 }
