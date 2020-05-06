@@ -65,11 +65,17 @@ nav {
     justify-content: space-between;
 }
 
-.img-scroll-container {
+.scroller-container {
     background-color: rgb(211, 211, 211);
     
-    height: 250px;
+    min-height: 250px;
     width: 100%;
     
+    border-top: 2px solid darkgray;
+    border-bottom: 2px solid darkgray;
     border-radius: 5px;
+    
+    display: flex;
+    justify-content: space-around;
 }
+
