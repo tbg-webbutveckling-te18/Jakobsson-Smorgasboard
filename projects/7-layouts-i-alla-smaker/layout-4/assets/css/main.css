@@ -36,15 +36,29 @@ header input {
 }
 
 .logo-container {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo-fraktion-1 {
+    background-color: rgb(138, 43, 226);
     
+    height: 150px;
+    width:  150px;
+    
+    border-radius: 75px;
 }
 
 .logo-fraktion-2 {
+    background-color: rgb(255, 244, 33);
     
+    margin: auto;
+    
+    height: 100px;
+    width: 100px;
+    
+    border-radius: 50px;
 }
 
 .company-name-container {
@@ -63,5 +77,46 @@ header input {
 }
 
 .phonenumber-container {
-/*    få texten i mitten*/
+    text-align: center;
 }
+
+.navigation {
+    border: 2px solid black;
+    
+    height: 25px;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation input {
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-container {
+    
+}
+
+.left-side {
+    height: 350px;
+    width: 200px;
+    
+    border: 2px solid black;
+}
+
+.package-info {
+    margin-top: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
