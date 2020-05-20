@@ -103,10 +103,11 @@ a {
 }
 
 .main-container {
-    
+    display: flex;
+    justify-content: space-between;
 }
 
-.left-side {
+.featured-packages {
     height: 350px;
     width: 200px;
     
@@ -120,3 +121,31 @@ a {
     justify-content: space-between;
 }
 
+.package-info img {
+    background-color: gray;
+    
+    height: 50px;
+    width: 50px;
+}
+
+.featured-destination {
+    height: 350px;
+    width: 800px;
+    
+    border: 2px solid black;
+}
+
+.text-img-container {
+    height: auto;
+    width: auto;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-container img {
+    background-color: gray;
+    
+    height: 100px;
+    width: 100px;
+}
