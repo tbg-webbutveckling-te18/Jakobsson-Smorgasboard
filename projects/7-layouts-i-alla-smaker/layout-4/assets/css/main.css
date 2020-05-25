@@ -143,9 +143,42 @@ a {
     justify-content: space-between;
 }
 
+.text-container {
+    height: auto;
+    width: 300px;
+}
+
+.img-container {
+    height: 250px;
+    width: 250px;
+}
+
 .img-container img {
     background-color: gray;
     
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
+    
+    display: block;
+}
+
+.advertisments {
+    height: 350px;
+    width: 200px;
+}
+
+.advertisment {
+    height: 111px;
+    width: 200px;
+    
+    border: 2px solid black;
+}
+
+#ad-place-1 a {
+    display: block;
+}
+
+#ad-place-2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
