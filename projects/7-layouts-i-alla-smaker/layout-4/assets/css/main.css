@@ -115,7 +115,7 @@ a {
 }
 
 .package-info {
-    margin-top: 10px;
+    margin: 10px;
     
     display: flex;
     justify-content: space-between;
@@ -149,7 +149,7 @@ a {
 }
 
 .img-container {
-    height: 250px;
+    height: 215px;
     width: 250px;
 }
 
@@ -160,6 +160,26 @@ a {
     width: 200px;
     
     display: block;
+}
+
+.img-scroller {
+    
+}
+
+.img-scroller-container {
+    padding: 5px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-scroller-container img {
+    background-color: gray;
+    
+    margin: 5px;
+    
+    height: 75px;
+    width: 75px;
 }
 
 .advertisments {
@@ -181,4 +201,10 @@ a {
 #ad-place-2 {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+#ad-place-2 p, #ad-place-3 p {
+    font-size: 50px;
+    
+    text-align: center;
 }
