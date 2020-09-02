@@ -15,14 +15,21 @@ body {
 }
 
 header {
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
     min-height: 30vh;
-    width: 50vw;
+    width: 100vw;
 
     box-shadow: 0px 4px 4px lightgray;
 }
 
 header h1 {
     font-size: 64px;
+    font-weight: 100px;
+
     line-height: 120px;
 }
 
@@ -35,4 +42,97 @@ header button {
 
     font-size: 22px;
     font-weight: 200px;
+
+    transition: all 0.3s;
+}
+
+header button:hover {
+    cursor: pointer;
+
+    background-color: orange;
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+nav {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+
+    height: 100vh;
+
+    flex: 1;
+}
+
+nav ul {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+ul li {
+    border-bottom: 2px solid white;
+    display: flex;
+    height: 50px;
+    width: 100%;
+}
+
+ul li a {
+    color: white;
+    
+    font-size: 22px;
+
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.3s;
+}
+
+ul li a:hover {
+    background-color: orange;
+
+    font-weight: 700;
+}
+
+main {
+    flex: 4;
+}
+
+.main-content {
+    height: 300px;
+
+    box-shadow: 0px 4px 4px orange;
+
+    display: flex;
+}
+
+.main-child {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.main-child img {
+    width: 75%;
+}
+
+/******************************************
+************** Special classes **************
+******************************************/
+
+.highlighted {
+    background-color: orange;
+
+    font-weight: 700;
 }
