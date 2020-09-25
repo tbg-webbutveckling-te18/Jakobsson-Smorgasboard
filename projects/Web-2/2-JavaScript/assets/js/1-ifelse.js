@@ -52,3 +52,71 @@ if(d.getHours() < 10) {
 } else {
     console.log('Good evenong');
 }
+
+var grade ='A';
+switch(grade) {
+    case 'A':
+        console.log('Great job!');
+    break;
+
+    case 'B':
+        console.log('Great job!');
+    break;
+
+    case 'C':
+        console.log('Allright!');
+    break;
+
+    case 'D':
+        console.log('Good!');
+    break;
+
+    case 'E':
+        console.log('OK!');
+    break;
+
+    case 'F':
+        console.log('N00B!');
+    break;
+
+    default:
+        console.log('Unknown grade!');
+        break;
+}
+
+
+// switch för veckodagar
+
+
+switch(d.getDay()) {
+    case 0:
+        console.log('It is Sunday');
+        break;
+    
+    case 1:
+        console.log('It is Monday.');
+        break;
+
+    case 2:
+        console.log('It is Tuesday.');
+        break;
+
+    case 3:
+        console.log('It is Wednesday.');
+        break;
+
+    case 4:
+        console.log('It is Thursday.');
+        break;
+
+    case 5:
+        console.log('It is Friday.');
+        break;
+
+    case 6:
+        console.log('It is Saturday.');
+        break;
+    
+    default:
+        console.log('Unknown day.');
+}
