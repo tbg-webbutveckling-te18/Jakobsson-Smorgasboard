@@ -54,3 +54,24 @@ for (var i = 5; i < 51; i++) {
         document.write(i + ' ');
     }
 }
+
+document.writeln('<br>' + '_____________________' + '<br>');
+/*
+for (var i = 0; i <= 10; i++) {
+    var multication = i * 9;
+    document.writeln(i + '*' + 9 + '=' + multication + '<br>');
+} */
+
+// Nested for-loops
+// * * * * *
+// * * * * *
+// * * * * *
+// * * * * *
+// * * * * *
+
+for (var i = 0; i <= 10; i++) {
+    for (var j = 0; j <= 10; j++) {
+        document.writeln(' ' + i * j + ' ')
+    }
+    document.writeln('<br>');
+}
