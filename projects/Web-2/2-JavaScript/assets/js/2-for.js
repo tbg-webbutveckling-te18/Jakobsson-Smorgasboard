@@ -71,7 +71,24 @@ for (var i = 0; i <= 10; i++) {
 
 for (var i = 0; i <= 10; i++) {
     for (var j = 0; j <= 10; j++) {
-        document.writeln(' ' + i * j + ' ')
+        document.writeln(i * j);
     }
     document.writeln('<br>');
+}
+
+document.writeln('<br>' + '_____________________' + '<br>');
+
+var gameArray = ['Titanfall 2', 'Team Fortress 2', 'Planetside 2', 'Command and Conquer'];
+gameArray.push('Slay The Spire');
+
+for (var i = 0; i < gameArray.length; i++) {
+    if (i == 0) {
+        document.writeln('My 1st choise is: ' + gameArray[i] + '<br>');
+    } else if (i == 1) {
+        document.writeln('My 2nd choise is: ' + gameArray[i] + '<br>');
+    }else if (i == 2) {
+        document.writeln('My 3rd choise is: ' + gameArray[i] + '<br>');
+    } else {
+        document.writeln('My ' + (i + 1) + 'th choise is: ' + gameArray[i] + '<br>');
+    }
 }
