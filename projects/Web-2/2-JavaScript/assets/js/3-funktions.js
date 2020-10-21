@@ -6,8 +6,8 @@ function twinkle() {
     document.writeln('<br>');
 }
 
-twinkle();
-twinkle();
+// twinkle();
+// twinkle();
 
 function square(num) {
     document.writeln(num * num);
@@ -69,3 +69,56 @@ function kebabToSnake(myString) {
 
 var myString = kebabToSnake('Hej-på-dig-mask');
 document.writeln(myString);
+
+document.writeln('<br>');
+
+var p = document.getElementById('scopes'); // global scope
+
+// declare
+function localScope() {
+    var localVar = 31;
+    p.innerHTML = localVar;
+}
+// call
+localScope();
+
+document.writeln('<br>');
+
+var globalVar = 'this is a global variable';
+p.innerHTML = globalVar;
+p.style.fontSize = '20px';
+p.style.color = '#639';
+
+function changeGlobalVar() {
+    globalVar = 'new value';
+    p.innerHTML = globalVar;
+}
+changeGlobalVar();
+
+function tricky(){
+    var globalVar = 'Am I a local variable?';
+    p.innerHTML = globalVar;
+}
+
+tricky();
+p.innerHTML = globalVar;
+
+function myTimer() {
+    var d = new Date();
+    var clock = document.getElementById('clock');
+    clock.innerHTML = d.toLocaleTimeString();
+}
+myTimer();
+
+var seconds = setInterval(myTimer, 1000);
+var btnStopTime = document.getElementsByClassName('stopTime')[0];
+var doomsStr = document.getElementById('doomsMessage');
+
+btnStopTime.addEventListener('click', function() {
+    clearInterval(seconds);
+
+    doomsStr.innerHTML = 'HA HA! Time is no more!'
+    doomsStr.style.transition = 'all .4s ease';
+    doomsStr.style.fontSize = '60px';
+    doomsStr.style.color = 'crimson';
+});
