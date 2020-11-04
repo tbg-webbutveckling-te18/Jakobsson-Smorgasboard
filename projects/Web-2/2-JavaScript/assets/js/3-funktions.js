@@ -119,6 +119,27 @@ btnStopTime.addEventListener('click', function() {
 
     doomsStr.innerHTML = 'HA HA! Time is no more!'
     doomsStr.style.transition = 'all .4s ease';
-    doomsStr.style.fontSize = '60px';
+    doomsStr.style.fontSize = '30px';
     doomsStr.style.color = 'crimson';
+});
+
+var fortune = document.getElementById('fortune');
+var btnFortune = document.getElementsByTagName('button')[2];
+
+function tellFortune(job, local, parName, numOfKids) {
+    fortune.innerHTML += `You will be a ${job} in ${local} and marrid to ${parName} and have ${numOfKids} kid(s) <br>`;
+}
+
+var jobArr = ['Game designer', 'Teacher', 'Nurse', 'Doctor', 'Dictator', 'Preast', 'Criminal'];
+var localArr = ['Sweden', 'UK', 'Amerika', 'Australia', 'Turkey', 'Germany'];
+var partnerArr = ['Leif', 'Susanna', 'Karl', 'Margareta'];
+var kidsArr = [0, 0.5, 1, 2, 3, 4];
+
+btnFortune.addEventListener('click', function() {
+    var randomJob = jobArr[Math.floor(Math.random() * jobArr.length)];
+    var randomLocal = localArr[Math.floor(Math.random() * localArr.length)];
+    var randomPartner = partnerArr[Math.floor(Math.random() * partnerArr.length)];
+    var randomKids = kidsArr[Math.floor(Math.random() * kidsArr.length)];
+
+    tellFortune(randomJob, randomLocal, randomPartner, randomKids);
 });
