@@ -143,3 +143,25 @@ btnFortune.addEventListener('click', function() {
 
     tellFortune(randomJob, randomLocal, randomPartner, randomKids);
 });
+
+function calculateDogYears(dogAge, humanAge) {
+    document.writeln('Your dog is ' + dogAge * 5 + ' in dog years. <br>');
+
+    var humanDogYears = Math.round(humanAge / 7);
+    document.writeln(`Your dog is ${humanDogYears} in dog years. <br>`);
+}
+
+calculateDogYears(5, 17);
+calculateDogYears(3, 42);
+calculateDogYears(6, 50);
+
+function calculateSupply(age, ammount) {
+    var yearsLeft = 100 - age;
+    var ammountPerYear = ammount * 365;
+    var ammountNeeded = yearsLeft * ammountPerYear;
+    var ammountNeededRound = Math.round(ammountNeeded);
+
+    document.writeln(`You will need ${ammountNeededRound} total.`);
+}
+
+calculateSupply(17, 5);
