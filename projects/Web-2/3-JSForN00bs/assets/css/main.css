@@ -5,6 +5,7 @@
     padding: 0px;
 
     text-decoration: none;
+    list-style: none;
 
     box-sizing: border-box;
 }
@@ -21,6 +22,8 @@ header {
 }
 
 h1 {
+    font-size: 45px;
+
     color: #00FBD1;
 }
 
@@ -36,10 +39,51 @@ h1 {
     border-top: none;
 }
 
-/* <<<placeholder för barn till mainNav>>>*/
+#mainNav ul {
+    height: 100%;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    color: #00FBD1;
+
+    font-size: 20px;
+    font-weight: bold;
+}
 
 #mainContent {
+    border: 2px solid  #FF6700;
+    border-left: none;
+    border-top: none;
+
     flex: 7;
+
+    display: flex;
+}
+
+.mainContentChild {
+    height: 100%;
+
+    flex: 1;
+}
+
+#infoBox {
+    border-right: 2px solid #FF6700;
+}
+
+#exampleBox{
+
 }
 
 /* !!!SPECIAL THINGS!!! */
+
+#activePage{
+    
+}
