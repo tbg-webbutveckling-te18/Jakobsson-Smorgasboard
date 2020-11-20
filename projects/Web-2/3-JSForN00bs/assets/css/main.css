@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: darkgrey;
+}
+
 header {
     height: 75px;
     
@@ -71,7 +75,13 @@ a {
 .mainContentChild {
     height: 100%;
 
+    padding: 5px;
+
     flex: 1;
+}
+
+.mainContentChild h2, .mainContentChild p {
+    text-align: center;
 }
 
 #infoBox {
@@ -82,8 +92,25 @@ a {
 
 }
 
+footer {
+    height: 35px;
+
+    border: 2px solid #FF6700;
+    border-top: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* !!!SPECIAL THINGS!!! */
 
 #activePage{
-    
+    font-size: 25px;
+    color: #00a388
+}
+
+a:hover {
+    font-size: 25px;
+    color: #00a388
 }
