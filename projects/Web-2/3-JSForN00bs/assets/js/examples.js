@@ -25,3 +25,22 @@ switch(letter) {
 
 
 /* Loopar */
+for(var number = 0; number <= 10; number++) {
+    /* Gör att number börjar på 0 och medens det 
+    är 10 eller mindre så körs koden här sendan
+    ökas number med 1 */
+}
+
+
+var number = 1;
+while(number < 10) {
+    number += 1;
+    /* Medans number är mindre än 10 så körs
+    koden tills kravet inte längre uppfylls */
+}
+
+
+/* Funktioner */
+function myFunction() {
+    /*  */
+}
