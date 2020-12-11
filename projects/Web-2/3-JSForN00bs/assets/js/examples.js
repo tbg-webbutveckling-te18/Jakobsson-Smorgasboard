@@ -41,6 +41,20 @@ while(number < 10) {
 
 
 /* Funktioner */
-function myFunction() {
-    /*  */
+function myFunction(/* Här är parameterar skickas in */) {
+    /* Gör detta för att skriva funktionen. 
+    Sedan då den anropas så körs koden här */
 }
+
+myFunction(/* Här är argumenten som tas upp av funktionen */);
+/* Gör sedan så här för att anropa funktionen */
+
+
+/* Array */
+var myArray = ['Sak 1', 'Sak 2', 'Sak 3'];
+/* Detta skapar en ny array och lägger in värden i den. */
+
+
+var arrayItem = myArray[0];
+/* Ger variabeln arrayItem samma värde som myArray 
+med index 0 som blir texten Sak 1 */
