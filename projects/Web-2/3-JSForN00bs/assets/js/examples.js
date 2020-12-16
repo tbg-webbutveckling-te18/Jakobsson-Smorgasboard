@@ -58,3 +58,16 @@ var myArray = ['Sak 1', 'Sak 2', 'Sak 3'];
 var arrayItem = myArray[0];
 /* Ger variabeln arrayItem samma värde som myArray 
 med index 0 som blir texten Sak 1 */
+
+
+/* Objekt */
+myObject = {
+    text: 'En text',
+    number: 25
+};
+/* Detta gör ett nytt objekt */
+
+
+var objectItem = myObject.text;
+/* Ger objectItem det värdes som ligger
+ i text innanför myObject */
