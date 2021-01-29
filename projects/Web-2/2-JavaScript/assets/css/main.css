@@ -36,12 +36,32 @@ body {
     Object
 */
 
- .posts {
-    width: 50%;
+.container {
+    display: flex;
+}
+
+#firstOutput, .posts {
     min-height: 300px;
-    margin: auto;
+
+    flex: 1;
 
     border: 5px double black;
     box-shadow: inset 2px 2px 10px black, 2px 2px 10px black;
+
     padding: 20px;
- }
+}
+
+.updateCity {
+    height: 16px;
+    width: 80px;
+
+    outline: none;
+    border: none;
+
+    transition: all .4s;
+}
+
+.updateCity:focus {
+    height: 25px;
+    width: 50%;
+}
