@@ -64,8 +64,42 @@ posts.forEach(function(post) {
 });
 
 var input = document.querySelector(".updateCity");
+var city = document.querySelector(".city")
 input.addEventListener("keydown", function(e) {
-    if(e.key === 'enter') {
-        alert('HAHA');
+    if(e.key === 'Enter') {
+        city.innerHTML = input.value;
+        document.body.style.backgroundColor = 'red';
+        document.body.style.transform += 'rotateX(4deg)';
+        document.body.style.transform += 'rotateY(4deg)';
     }
 });
+
+var toggle = document.querySelector(".btnToggle");
+toggle.addEventListener('click', function() {
+    // classList.add
+    // classList.remove
+    city.classList.toggle("changeText");
+});
+
+var movies = [
+    {
+        movie: "Tron",
+        raiting: "4/5",
+        watched: "Yes"
+    },
+    {
+        movie: "Vaiana",
+        raiting: "8/10",
+        watched: "Yes"
+    },
+    {
+        movie: "Frozen",
+        raiting: "3/4",
+        watched: "Yes"
+    }
+]
+
+var movieList = document.querySelector(".movieDB");
+movies.forEach(function(movie) {
+    movieList.innerHTML += `${movie.movie} `;
+})

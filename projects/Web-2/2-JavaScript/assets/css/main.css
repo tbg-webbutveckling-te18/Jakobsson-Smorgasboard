@@ -65,3 +65,11 @@ body {
     height: 25px;
     width: 50%;
 }
+
+.changeText {
+    color: #639;
+    font-weight: bold;
+    font-size: 32px;
+    text-shadow: 200px -200px 5px #000;
+    letter-spacing: 5px;
+}
