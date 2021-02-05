@@ -85,21 +85,75 @@ var movies = [
     {
         movie: "Tron",
         raiting: "4/5",
-        watched: "Yes"
+        watched: true
     },
     {
         movie: "Vaiana",
         raiting: "8/10",
-        watched: "Yes"
+        watched: true
     },
     {
         movie: "Frozen",
         raiting: "3/4",
-        watched: "Yes"
+        watched: true
     }
 ]
 
 var movieList = document.querySelector(".movieDB");
 movies.forEach(function(movie) {
-    movieList.innerHTML += `${movie.movie} `;
-})
+    if(movie.watched === true) {
+        movieList.innerHTML += `Name: ${movie.movie} <br> Raiting: ${movie.raiting} <br> Has watched <br><br>`;
+    } else {
+        movieList.innerHTML += `Name: ${movie.movie} <br> Raiting: ${movie.raiting} <br> Has not watched`
+    }
+});
+
+var opc = document.querySelector('#outputCalc');
+
+var countObject = {
+    someText: 'This are texts',
+    multiply: function(x, y) {
+        return x * y;
+    },
+
+    powerUp: function(x, y) {
+        return x ** y
+    }
+}
+
+opc.innerHTML = countObject.multiply(10, 5);
+opc.innerHTML += countObject.powerUp(4, 8);
+
+// animal sounds
+
+var outputSound = document.querySelector('.animalSound');
+var buttonAnimal = document.querySelectorAll('.btnAnimal');
+
+var animalSound = {
+    dog: function() {
+        outputSound.innerHTML = 'Voff!';
+    },
+
+    cat: function() {
+        outputSound.innerHTML = 'Mjau';
+    },
+    
+    wolf: function() {
+        outputSound.innerHTML = 'Grrr!';
+    },
+
+    cow: function() {
+        outputSound.innerHTML = 'Muu';
+    }
+};
+
+for(var i = 0; i < buttonAnimal.length; i++) {
+    buttonAnimal[i].addEventListener('click', function() {
+        switch (this.innerHTML) {
+            case 'Dog': {
+                animalSound.dog();
+                break;
+            }
+        }
+    });
+};
