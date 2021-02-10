@@ -154,6 +154,50 @@ for(var i = 0; i < buttonAnimal.length; i++) {
                 animalSound.dog();
                 break;
             }
+            case 'Cat': {
+                animalSound.cat();
+                break;
+            }
+            case 'Wolf': {
+                animalSound.wolf();
+                break;
+            }
+            case 'Cow': {
+                animalSound.cow();
+                break;
+            }
         }
     });
 };
+
+buttonAnimal[i].addEventListener('mouseover', function() {
+    // this.style.backgroundColor = "red";
+    this.classList.add("toggleButtonBg");
+});
+
+var addFriend = document.querySelector(".friend");
+var remoneFriend = document.querySelector("unFriend");
+
+
+var newUser = {
+    friends: ['Arnold', 'Stallone', 'Chuck'], 
+    addFriend: function(friend) {
+        this.friends.push(friend);
+    },
+    removeFriend: function() {
+        this.friends.pop()
+    }
+};
+
+addFriend.addEventListener('click', function() {
+    newUser.addFriend(prompt('Add friends name: '));
+});
+
+removeFriend.addEventListener('click', function() {
+    newUser.removeFriend(prompt('Remove friend: '))
+});
+
+var btnDoomed = document.querySelector(".doomed");
+
+youAreDoomed = () => document.body.innerHTML = "HAHA YOUR ARE DOOMED";
+btnDoomed.addEventListener('click', youAreDoomed());

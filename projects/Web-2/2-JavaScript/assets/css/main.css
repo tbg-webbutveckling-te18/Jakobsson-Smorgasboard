@@ -73,3 +73,17 @@ body {
     text-shadow: 200px -200px 5px #000;
     letter-spacing: 5px;
 }
+
+.toggleButtonBg {
+    background-color: red;
+}
+
+/******************************************************
+                        Utility classes
+******************************************************/
+
+.addFlex {
+    display: flex;
+    flex-flow: row wrap;
+
+}
