@@ -168,15 +168,18 @@ for(var i = 0; i < buttonAnimal.length; i++) {
             }
         }
     });
+    buttonAnimal[i].addEventListener('mouseover', function() {
+        // this.style.backgroundColor = "red";
+        this.classList.add('toggleButtonBg');
+    });
+    buttonAnimal[i].addEventListener('mouseleave', function() {
+        // this.style.backgroundColor = "red";
+        this.classList.remove('toggleButtonBg');
+    });
 };
 
-buttonAnimal[i].addEventListener('mouseover', function() {
-    // this.style.backgroundColor = "red";
-    this.classList.add("toggleButtonBg");
-});
-
 var addFriend = document.querySelector(".friend");
-var remoneFriend = document.querySelector("unFriend");
+var removeFriend = document.querySelector(".unFriend");
 
 
 var newUser = {
@@ -200,4 +203,21 @@ removeFriend.addEventListener('click', function() {
 var btnDoomed = document.querySelector(".doomed");
 
 youAreDoomed = () => document.body.innerHTML = "HAHA YOUR ARE DOOMED";
-btnDoomed.addEventListener('click', youAreDoomed());
+btnDoomed.addEventListener('click', youAreDoomed);
+
+
+var todo = document.querySelectorAll('.todo li');
+
+for(var i = 0; i < todo.length; i++) {
+    todo[i].addEventListener('mouseover', function() {
+        this.classList.add('todo-hover');
+    });
+
+    todo[i].addEventListener('mouseleave', function() {
+        this.classList.remove('todo-hover');
+    });
+
+    todo[i].addEventListener('click', function() {
+        this.classList.toggle('todo-complete');
+    });
+};
