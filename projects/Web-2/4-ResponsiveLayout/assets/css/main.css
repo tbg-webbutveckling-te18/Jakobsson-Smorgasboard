@@ -37,6 +37,10 @@ header h1 {
     color: #007af3;
 }
 
+.mobileIcon {
+    display: none;
+}
+
 nav {
     flex: 3;
 }

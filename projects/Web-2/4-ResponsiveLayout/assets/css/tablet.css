@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+header {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+}
+
+header h1 {
+    flex: 0;
+}
+
+nav {
+    flex: 0;
+    justify-content: center;;
+
+    width: 100vw;
+}
+
+.spanLogo {
+    color: purple;
+}
+
+main {
+    flex-direction: column-reverse;
+}
+
+.mainLeft {
+    order: 2;
+}
+
+.mainCenter {
+    order: 3;
+}
+
+.mainRight {
+    order: 1;
+}
