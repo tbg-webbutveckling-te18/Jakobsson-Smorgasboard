@@ -37,7 +37,7 @@ header h1 {
     color: #007af3;
 }
 
-.mobileIcon {
+.mobileIcon, .mobileIconClose {
     display: none;
 }
 
@@ -82,6 +82,23 @@ footer {
     height: 250px;
 
     background-color: #3e4043;
+}
+
+footer ul {
+    height: 100%;
+    width: 100%;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+    list-style: none;
+}
+
+footer ul li {
+    font-size: 25px;
+    color: #aaa49d;
+
+    border-bottom: 2px solid black;
 }
 
 /*******************************************
