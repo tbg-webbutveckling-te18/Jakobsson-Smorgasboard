@@ -62,19 +62,29 @@ main {
     min-height: 1000px;
 }
 
-.mainLeft {
+.mainLeft, .mainRight {
+    padding: 5px;
+
     flex: 1;
     background-color: #637692;
 }
 
 .mainCenter {
+    padding: 5px;
+
     flex: 2;
     background-color: #5f6c7e;
 }
 
-.mainRight {
-    flex: 1;
-    background-color: #637692;
+.mainCenter p {
+    font-size: 18px;
+}
+
+.lamp {
+    display: block;
+    margin: auto;
+
+    width: 275px;
 }
 
 footer {
@@ -97,6 +107,8 @@ footer ul {
 footer ul li {
     font-size: 25px;
     color: #aaa49d;
+
+    cursor: pointer;
 
     border-bottom: 2px solid black;
 }
