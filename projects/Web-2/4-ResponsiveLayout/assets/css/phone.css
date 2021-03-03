@@ -58,7 +58,13 @@ header {
     text-align: center;
 
     border-bottom: 1px solid black;
+
+    transition: all .4s;
 }
+
+/*******************************************
+                    Hovers
+*******************************************/
 
 .mobileMenu li:hover {
     background-color: #95afbe;
