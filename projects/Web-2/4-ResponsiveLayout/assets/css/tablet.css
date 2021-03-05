@@ -36,7 +36,7 @@ main {
     order: 1;
 }
 
-.lamp {
+.lamp, .dice {
     width: 190px;
 
     transition: all .4s;

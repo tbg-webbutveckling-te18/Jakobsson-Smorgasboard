@@ -67,6 +67,10 @@ main {
 
     flex: 1;
     background-color: #637692;
+
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .mainCenter {
@@ -80,9 +84,8 @@ main {
     font-size: 18px;
 }
 
-.lamp {
+.lamp, .dice {
     display: block;
-    margin: auto;
 
     width: 275px;
 }
