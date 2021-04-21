@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+    text-decoration: none;
+    list-style: none;
+
+    box-sizing: border-box;
+
+    background-color: white;
+}
+
+header {
+    height: 15vh;
+}
+
+nav {
+    height: 100%;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav p {
+    color: #707070;
+}
+
+#navBox {
+    height: 100%;
+    width: 15%;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btnPremium {
+    padding: 5px;
+
+    border: 1px solid #007af3;
+    border-radius: 15px;
+}
+
+.hero {
+    height: ;
+}
+
+/* Help classes */
+
+.addFlex {
+    display: flex;
+}
+
+.makePrimaryColor {
+    color: #007af3;
+}
+
+.makeBold {
+    font-weight: bold;
+}
