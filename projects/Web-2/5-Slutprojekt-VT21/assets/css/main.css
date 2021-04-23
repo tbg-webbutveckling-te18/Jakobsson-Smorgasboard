@@ -6,8 +6,6 @@
     list-style: none;
 
     box-sizing: border-box;
-
-    background-color: white;
 }
 
 header {
@@ -38,10 +36,50 @@ nav p {
 
     border: 1px solid #007af3;
     border-radius: 15px;
+    background-color: white;
 }
 
 .hero {
-    height: ;
+    height: 500px;
+}
+
+#mindBlown {
+    background-color: #F2F2F2;
+}
+
+#textContianer {
+    height: 250px;
+    width: 250px;
+}
+
+#textContianer p {
+    color: #8B8B8B;
+    font-size: 12px;
+}
+
+#textContianer h1 {
+    font-size: 35px;
+}
+
+#buttonContainer {
+    height: 50px;
+}
+
+#btnForFree {
+    height: 20px;
+    width: 85px;
+
+    border: 1px solid #007af3;
+    border-radius: 15px;
+
+    color: white;
+    background-color: #007af3;
+}
+
+
+
+#checklist {
+    background-color: #3B4651;
 }
 
 /* Help classes */
