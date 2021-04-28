@@ -23,7 +23,7 @@ nav p {
     color: #707070;
 }
 
-#navBox {
+.navBox {
     height: 100%;
     width: 15%;
 
@@ -31,10 +31,10 @@ nav p {
     align-items: center;
 }
 
-#btnPremium {
+.btnPremium {
     padding: 5px;
 
-    border: 1px solid #007af3;
+    border: 2px solid #007af3;
     border-radius: 15px;
     background-color: white;
 }
@@ -43,44 +43,79 @@ nav p {
     height: 500px;
 }
 
-#mindBlown {
+/* Begining of the first big section */
+.mindBlownContainer {
     background-color: #F2F2F2;
 }
 
-#textContianer {
+/* Left part of first big section */
+.mindBlown {
+    flex: 1;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.textContianer {
     height: 250px;
     width: 250px;
 }
 
-#textContianer p {
+.textContianer p {
     color: #8B8B8B;
     font-size: 12px;
 }
 
-#textContianer h1 {
+.textContianer h1 {
     font-size: 35px;
 }
 
-#buttonContainer {
+.buttonContainer {
     height: 50px;
+
+    justify-content: space-between;
+    align-items: center;
 }
 
-#btnForFree {
-    height: 20px;
-    width: 85px;
+.btnForFree {
+    height: 30px;
+    width: 90px;
 
     border: 1px solid #007af3;
     border-radius: 15px;
 
     color: white;
+    font-size: 11px;
+    font-weight: bold;
     background-color: #007af3;
 }
 
+.iconTextHolder {
+    align-items: center;
+}
 
+.cameraIcon {
+    height: 25px;
+}
 
-#checklist {
+p.camText {
+    height: auto;
+
+    text-decoration: underline;
+}
+
+/* Right part of firt big section */
+.graphicContainer {
+    flex: 1;
+}
+/* End of first big section */
+
+/* begining of the second big section */
+.checklist {
     background-color: #3B4651;
 }
+
+/* End of the second big section */
 
 /* Help classes */
 
@@ -94,4 +129,8 @@ nav p {
 
 .makeBold {
     font-weight: bold;
+}
+
+button:active {
+    background: red;
 }
