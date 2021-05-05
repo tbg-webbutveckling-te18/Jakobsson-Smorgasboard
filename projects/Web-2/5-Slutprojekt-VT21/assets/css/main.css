@@ -39,10 +39,6 @@ nav p {
     background-color: white;
 }
 
-.hero {
-    height: 500px;
-}
-
 /* Begining of the first big section */
 .mindBlownContainer {
     background-color: #F2F2F2;
@@ -50,7 +46,7 @@ nav p {
 
 /* Left part of first big section */
 .mindBlown {
-    flex: 1;
+    flex: 3;
 
     justify-content: center;
     align-items: center;
@@ -63,11 +59,11 @@ nav p {
 
 .textContianer p {
     color: #8B8B8B;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .textContianer h1 {
-    font-size: 35px;
+    font-size: 45px;
 }
 
 .buttonContainer {
@@ -78,11 +74,11 @@ nav p {
 }
 
 .btnForFree {
-    height: 30px;
-    width: 90px;
+    height: 35px;
+    width: 95px;
 
     border: 1px solid #007af3;
-    border-radius: 15px;
+    border-radius: 20px;
 
     color: white;
     font-size: 11px;
@@ -106,13 +102,42 @@ p.camText {
 
 /* Right part of firt big section */
 .graphicContainer {
-    flex: 1;
+    flex: 2;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.taskList {
+    height: 450px;
 }
 /* End of first big section */
 
 /* begining of the second big section */
-.checklist {
+.checklistContainer {
+    position: relative;
+
     background-color: #3B4651;
+}
+
+.offcenterBlock {
+    height: 450px;
+    width: 200px;
+
+    position: absolute;
+    top: -125px;
+
+    position: relative;
+
+    background-color: #007af3;
+}
+
+.coolDots {
+    height: 150px;
+
+    position: absolute;
+    top: 150px;
+    left: 95px;
 }
 
 /* End of the second big section */
@@ -131,6 +156,6 @@ p.camText {
     font-weight: bold;
 }
 
-button:active {
-    background: red;
+.hero {
+    height: 500px;
 }
