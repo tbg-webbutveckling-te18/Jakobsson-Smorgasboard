@@ -127,8 +127,6 @@ p.camText {
     position: absolute;
     top: -125px;
 
-    position: relative;
-
     background-color: #007af3;
 }
 
@@ -140,7 +138,61 @@ p.camText {
     left: 95px;
 }
 
+.checklist {
+    height: 500px;
+    width: 350px;
+
+    margin: auto;
+}
+
+.checklistItem p {
+    color: #8B8B8B;
+
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.checklistItem {
+    width: auto;
+
+    padding-top: 35px;
+
+    align-items: center;
+}
+
+.imgBackg {
+    height: 300px;
+    width: 265px;
+
+    position: absolute;
+    right: 0px;
+    bottom: -125px;
+
+    background-color: #3B4651;
+}
+
+.imgContainer {
+    height: 300px;
+    width: 265px;
+
+    position: absolute;
+    right: 0px;
+    bottom: -125px;
+
+    background-image: url(../images/img/phone.png);
+    mix-blend-mode: luminosity;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 /* End of the second big section */
+
+/* Begining of third big section */
+.testimoniesContainer {
+    background: #007af3;
+}
+
+/* End of third big section */
 
 /* Help classes */
 
