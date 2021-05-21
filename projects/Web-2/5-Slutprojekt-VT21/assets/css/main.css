@@ -189,7 +189,29 @@ p.camText {
 
 /* Begining of third big section */
 .testimoniesContainer {
+    padding-top: 50px;
+
     background: #007af3;
+    
+    align-items: center;
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+}
+
+.testimoniesContainer img {
+    
+}
+
+.testimonieBox {
+    height: 300px;
+
+    background-color: #006FDC;
+    border-radius: 30px;
+
+    color: white;
 }
 
 /* End of third big section */
