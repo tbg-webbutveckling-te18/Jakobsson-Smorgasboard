@@ -168,6 +168,8 @@ p.camText {
     right: 0px;
     bottom: -125px;
 
+    z-index: 1;
+
     background-color: #3B4651;
 }
 
@@ -179,6 +181,8 @@ p.camText {
     right: 0px;
     bottom: -125px;
 
+    z-index: 1;
+
     background-image: url(../images/img/phone.png);
     mix-blend-mode: luminosity;
     background-size: contain;
@@ -189,22 +193,26 @@ p.camText {
 
 /* Begining of third big section */
 .testimoniesContainer {
-    padding-top: 50px;
+    padding-bottom: 10px;
 
     background: #007af3;
-    
-    align-items: center;
 }
 
 .cardParrent {
-    width: 100%;
-    
-    overflow-x: scroll;
+    height: 500px;
+
+    padding-top: 7%;
+
+    white-space: nowrap;
+
+    overflow-x: hidden;
 }
 
 .card {
     height: 300px;
     width: 300px;
+
+    padding-right: 15px;
 
     display: inline-block;
 
@@ -233,10 +241,22 @@ p.camText {
 
     padding: 55px 10px 10px 10px;
 
+    white-space: normal;
+
     background-color: #006FDC;
     border-radius: 30px;
 
     color: white;
+}
+
+.scrollButtons {
+    justify-content: space-around;
+}
+
+.scrollLeft, .scrollRight{
+    width: 35px;
+
+    border-radius: 5px;
 }
 
 /* End of third big section */
@@ -256,5 +276,5 @@ p.camText {
 }
 
 .hero {
-    height: 500px;
+    min-height: 500px;
 }
